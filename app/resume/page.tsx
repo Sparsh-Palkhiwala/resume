@@ -3,7 +3,7 @@ import React from "react";
 const MinimalTextResume = () => {
   return (
     <div className="max-w-3xl mx-auto space-y-16">
-      {/* Main experience section*/}
+      {/* SIBI Experience*/}
       <section>
         <div className="space-y-6">
           <div>
@@ -48,6 +48,7 @@ const MinimalTextResume = () => {
         </div>
       </section>
 
+      {/*Mirwork Experience*/}
       <section>
         <div className="space-y-6">
           <div>
@@ -80,6 +81,70 @@ const MinimalTextResume = () => {
                 <li>
                   Implemented speaker Darization techniques for structuring data
                   and enhancing LLM fine-tuning for interview assessments
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Psych for Life Experience*/}
+      <section>
+        <div className="space-y-6">
+          <div>
+            <h2 className="text-white text-lg font-normal tracking-tight">
+              Software Developer · Psych for Life
+            </h2>
+            <div className="text-gray-400 mt-1">
+              <div className="text-sm mb-3">August 2023 - Present</div>
+              <ul className="text-sm space-y-2 leading-relaxed list-disc list-inside">
+                <li>
+                  Migrated web app from NPM to{" "}
+                  <span className="font-medium">PNPM</span>, cutting build times
+                  and boosting reliability with efficient dependency linking and
+                  content-addressable storage
+                </li>
+                <li>
+                  Achieved 80% reduction in research time by utilizing{" "}
+                  <span className="font-medium">Prompt Engineering</span> for
+                  enhanced efficiency
+                </li>
+                <li>
+                  Enhanced content management systems by fixing bugs and
+                  integrating transcript functionality into the dashboard for
+                  streamlined content updates
+                </li>
+                <li>
+                  Leading integration of <span className="font-medium">AI</span>{" "}
+                  into the writing process for enhanced efficiency, resulting in
+                  a streamlined timeframe
+                </li>
+                <li>
+                  Orchestrated the development and implementation of custom
+                  prompt engineering solutions, resulting in a 50% reduction in
+                  process cycle time and a 30% increase in team productivity
+                </li>
+                <li>
+                  Conducted research, literature reviews, data analysis, and
+                  fact-checking for 65+ scientific documents
+                </li>
+                <li>
+                  Implemented version control, conducted unit testing, and
+                  resolved platform bugs in TypeScript, ensuring code stability
+                </li>
+                <li>
+                  Led collaboration with Luminosity Labs for platform
+                  development, which streamlined operations and enhanced
+                  communication
+                </li>
+                <li>
+                  Employed caching techniques, resulting in a reduction in 70%
+                  decrease in rendering delay and improving website performance
+                </li>
+                <li>
+                  Migrated from NPM to <span className="font-medium">PNPM</span>
+                  , reducing package install time by 40% improving dependency
+                  management and build reliability
                 </li>
               </ul>
             </div>
