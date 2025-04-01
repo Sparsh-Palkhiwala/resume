@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
+       {/* <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export default function Footer() {
             <ArrowIcon />
             <p className="ml-2 h-7">rss</p>
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -50,6 +50,30 @@ export default function Footer() {
           >
             <ArrowIcon />
             <p className="ml-2 h-7">linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="mailto:spalkhiw@asu.edu"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">email</p>
+            
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://drive.google.com/file/d/115lTTONdim08vyKTGhGn3yQ99thrh_Kk/view?usp=sharing"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">resume</p>
+
           </a>
         </li>
       </ul>
