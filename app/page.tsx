@@ -7,9 +7,15 @@ export default function Page() {
         Sparsh Palkhiwala
       </h1>
       <p className="mb-4">
-        {`Hi there! I’m Sparsh, A passionate software developer and Machine Learning Enthusiast from India, a Graduate Student at ASU, pursuing a Masters in Computer Science, who is interested in Machine Learning and Data, and I’m an melomane who’s driven by a curiosity to understand and build the world around me.
-I am interested in meeting new people and discussing new ideas. Feel free a time with me on my calendly: https://calendly.com/spalkhiw.
-`}
+        Hi there! I'm Sparsh, a passionate software developer and Machine Learning enthusiast from India. 
+        I'm currently a Graduate Student at ASU, pursuing a Masters in Computer Science with a focus on Machine Learning and Data.
+        As a melomane, I'm driven by curiosity to understand and build the world around me.
+        {" "}
+        I am interested in meeting new people and discussing new ideas.
+        {" "}
+        <a href="https://calendly.com/spalkhiw" className="text-blue-500 hover:text-blue-600">
+          Feel free to book a time with me
+        </a>
       </p>
       <div className="my-8">
         <BlogPosts />
