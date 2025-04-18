@@ -78,6 +78,19 @@ const EnhancedMinimalResume = () => {
                     multi-page navigation and improving user workflow efficiency
                   </span>
                 </li>
+                <li className="flex gap-2">
+                  <span>
+                    Assisted in migrating internal AI assistant's data layer
+                    from{" "}
+                    <span className="text-teal-400 font-semibold">
+                      AWS Redshift
+                    </span>{" "}
+                    to{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Motherduck DuckDB
+                    </span>
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
