@@ -68,6 +68,16 @@ const EnhancedMinimalResume = () => {
                     <span className="text-teal-400 font-semibold">20%</span>
                   </span>
                 </li>
+                <li className="flex gap-2">
+                  <span>
+                    Optimized data retrieval by enhancing{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Apollo GraphQL
+                    </span>{" "}
+                    schema to fetch comprehensive runtime data, reducing
+                    multi-page navigation and improving user workflow efficiency
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
