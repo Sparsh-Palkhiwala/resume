@@ -68,6 +68,29 @@ const EnhancedMinimalResume = () => {
                     <span className="text-teal-400 font-semibold">20%</span>
                   </span>
                 </li>
+                <li className="flex gap-2">
+                  <span>
+                    Optimized data retrieval by enhancing{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Apollo GraphQL
+                    </span>{" "}
+                    schema to fetch comprehensive runtime data, reducing
+                    multi-page navigation and improving user workflow efficiency
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Assisted in migrating internal AI assistant's data layer
+                    from{" "}
+                    <span className="text-teal-400 font-semibold">
+                      AWS Redshift
+                    </span>{" "}
+                    to{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Motherduck DuckDB
+                    </span>
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
