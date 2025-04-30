@@ -350,7 +350,7 @@ const EnhancedMinimalResume = () => {
 
       <div className="flex justify-center pt-6">
         <a
-          href="/resume"
+          href="https://drive.google.com/file/d/115lTTONdim08vyKTGhGn3yQ99thrh_Kk/view?usp=sharing"
           className="group relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-white bg-gradient-to-r from-teal-500 to-teal-600 rounded-md shadow-lg hover:from-teal-600 hover:to-teal-700 transition-all duration-300 ease-out"
         >
           <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
