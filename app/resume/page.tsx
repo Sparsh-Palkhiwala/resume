@@ -6,6 +6,25 @@ const EnhancedMinimalResume = () => {
     <div className="max-w-3xl mx-auto space-y-16 py-16 px-6 font-sans">
       {/* Experience Timeline */}
       <div className="space-y-20">
+      <section className="group relative transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+              <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
+            </div>
+            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-400" />
+              Incoming Data Analyst (AI/ML) ·{" "}
+              <span className="text-teal-400 font-bold">On Semiconductor</span>
+            </h1>
+            <div className="text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+                June 2025 - Present
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         {/* SIBI Experience */}
         <section className="group relative transition-all duration-300">
           <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
@@ -19,7 +38,7 @@ const EnhancedMinimalResume = () => {
             </h1>
             <div className="text-gray-400 mt-2">
               <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
-                September 2024 - Present
+                September 2024 - June 2025
               </div>
               <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
                 <li className="flex gap-2">
