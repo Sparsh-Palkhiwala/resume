@@ -14,7 +14,7 @@ const EnhancedMinimalResume = () => {
             <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
               Incoming Data Analyst (AI/ML) ·{" "}
-              <span className="text-teal-400 font-bold">On Semiconductor</span>
+              <span className="text-teal-400 font-bold">Onsemi</span>
             </h1>
             <div className="text-gray-400 mt-2">
               <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
