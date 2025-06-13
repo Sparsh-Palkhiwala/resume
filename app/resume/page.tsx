@@ -20,6 +20,15 @@ const EnhancedMinimalResume = () => {
               <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
                 June 2025 - Present
               </div>
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <li className="flex gap-2">
+                  <span>
+                  Developed and documented Test Naming Guidelines by identifying patterns in non-compliant test names 
+                  using data masking and pin pattern analysis; addressed gaps in previous guidelines to improve consistency 
+                  and compliance.
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
