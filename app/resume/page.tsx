@@ -7,20 +7,20 @@ const EnhancedMinimalResume = () => {
       {/* Experience Timeline */}
       <div className="space-y-20">
       <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
               Incoming Data Analyst (AI/ML) ·{" "}
               <span className="text-teal-400 font-bold">Onsemi</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 June 2025 - Present
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
               <li className="flex gap-2">
                   <span>
                   Developed and documented Test Naming Guidelines by identifying patterns in non-compliant test names 
@@ -36,20 +36,20 @@ const EnhancedMinimalResume = () => {
 
         {/* SIBI Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
               Software Engineering Intern (AI/ML) ·{" "}
               <span className="text-teal-400 font-bold">SIBI LLC</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 September 2024 - June 2025
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Created a dataset of 100+ Text-to-SQL queries to enhance
@@ -126,20 +126,20 @@ const EnhancedMinimalResume = () => {
 
         {/* Mirwork Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
               Software Engineering Intern (AI/ML) ·{" "}
               <span className="text-teal-400 font-bold">Mirwork Inc</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 June 2024 - August 2024
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Engineered and optimized data extraction pipelines using
@@ -176,20 +176,20 @@ const EnhancedMinimalResume = () => {
 
         {/* Psych for Life Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
               Software Developer ·{" "}
               <span className="text-teal-400 font-bold">Psych for Life</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 August 2023 - Present
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Migrated web app from NPM to{" "}
@@ -205,169 +205,174 @@ const EnhancedMinimalResume = () => {
                     reduction in research time by utilizing{" "}
                     <span className="text-teal-400 font-semibold">
                       Prompt Engineering
+                    </span>{" "}
+                    techniques to optimize LLM interactions for data extraction
+                    and analysis
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Developed and deployed a comprehensive{" "}
+                    <span className="text-teal-400 font-semibold">
+                      React.js
+                    </span>{" "}
+                    web application with{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Node.js
+                    </span>{" "}
+                    backend, featuring user authentication, data visualization,
+                    and real-time updates
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Implemented robust{" "}
+                    <span className="text-teal-400 font-semibold">
+                      PostgreSQL
+                    </span>{" "}
+                    database architecture with optimized queries, reducing data
+                    retrieval time by{" "}
+                    <span className="text-teal-400 font-semibold">60%</span>
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Integrated third-party APIs and services, including payment
+                    processing and email automation, enhancing user experience
+                    and operational efficiency
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Freelance Experience */}
+        <section className="group relative transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+              <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
+            </div>
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-400" />
+              Freelance Software Developer ·{" "}
+              <span className="text-teal-400 font-bold">Self-Employed</span>
+            </h1>
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
+                January 2023 - August 2023
+              </div>
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
+                <li className="flex gap-2">
+                  <span>
+                    Delivered{" "}
+                    <span className="text-teal-400 font-semibold">15+</span>{" "}
+                    custom web applications and mobile solutions for diverse
+                    clients, ranging from e-commerce platforms to portfolio
+                    websites
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Specialized in{" "}
+                    <span className="text-teal-400 font-semibold">
+                      React.js
                     </span>
+                    ,{" "}
+                    <span className="text-teal-400 font-semibold">Next.js</span>
+                    , and{" "}
+                    <span className="text-teal-400 font-semibold">
+                      React Native
+                    </span>{" "}
+                    development, creating responsive and user-friendly
+                    interfaces
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
-                    Enhanced content management systems by fixing bugs and
-                    integrating transcript functionality into the dashboard
+                    Managed full project lifecycle from requirements gathering
+                    to deployment, consistently delivering projects on time and
+                    within budget
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
-                    Leading integration of{" "}
-                    <span className="text-teal-400 font-semibold">AI</span> into
-                    the writing process for enhanced efficiency
+                    Collaborated with designers and stakeholders to translate
+                    business requirements into technical solutions, improving
+                    client satisfaction by{" "}
+                    <span className="text-teal-400 font-semibold">95%</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Tata Consultancy Services Experience */}
+        <section className="group relative transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-300 dark:border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+              <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
+            </div>
+            <h1 className="text-black dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-400" />
+              Assistant System Engineer ·{" "}
+              <span className="text-teal-400 font-bold">
+                Tata Consultancy Services
+              </span>
+            </h1>
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
+                July 2021 - December 2022
+              </div>
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
+                <li className="flex gap-2">
+                  <span>
+                    Developed and maintained enterprise-level applications using{" "}
+                    <span className="text-teal-400 font-semibold">Java</span>,{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Spring Boot
+                    </span>
+                    , and{" "}
+                    <span className="text-teal-400 font-semibold">
+                      Angular
+                    </span>
+                    , serving over{" "}
+                    <span className="text-teal-400 font-semibold">10,000</span>{" "}
+                    daily active users
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
-                    Orchestrated custom prompt engineering solutions, resulting
-                    in a{" "}
+                    Implemented{" "}
+                    <span className="text-teal-400 font-semibold">RESTful</span>{" "}
+                    APIs and microservices architecture, improving system
+                    scalability and reducing response time by{" "}
+                    <span className="text-teal-400 font-semibold">40%</span>
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Collaborated with cross-functional teams in{" "}
+                    <span className="text-teal-400 font-semibold">Agile</span>{" "}
+                    environment, participating in sprint planning, code reviews,
+                    and daily standups
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Optimized database queries and implemented caching
+                    strategies, resulting in{" "}
                     <span className="text-teal-400 font-semibold">50%</span>{" "}
-                    reduction in process cycle time
+                    improvement in application performance
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
-                    Conducted research, literature reviews, data analysis, and
-                    fact-checking for 65+ scientific documents
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Implemented version control, conducted unit testing, and
-                    resolved platform bugs in TypeScript
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Led collaboration with Luminosity Labs for platform
-                    development, streamlining operations
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Employed caching techniques, resulting in a{" "}
-                    <span className="text-teal-400 font-semibold">70%</span>{" "}
-                    decrease in rendering delay
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* eInfochips Experience */}
-        <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
-              <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
-            </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
-              Software Engineering Intern (CV) ·{" "}
-              <span className="text-teal-400 font-bold">eInfochips</span>
-            </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
-                Jan 2023 - June 2023
-              </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
-                <li className="flex gap-2">
-                  <span>
-                    Led a team of 3 to develop a real-time vehicle detection
-                    system for visually impaired individuals, achieving{" "}
-                    <span className="text-teal-400 font-semibold">65.4%</span>{" "}
-                    average precision
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Achieved an{" "}
-                    <span className="text-teal-400 font-semibold">86.5%</span>{" "}
-                    reduction in resource usage by filter pruning algorithm
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Computed{" "}
-                    <span className="text-teal-400 font-semibold">CNN</span>{" "}
-                    models on 16,000 image datasets for vehicle detection
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Enhanced real-time safety detection in YOLO by implementing
-                    Safety Detection Algorithm, achieving a{" "}
-                    <span className="text-teal-400 font-semibold">25 fps</span>{" "}
-                    detection rate
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Applied precision-focused strategies and{" "}
-                    <span className="text-teal-400 font-semibold">
-                      fine-tuned
-                    </span>{" "}
-                    the model using Indian traffic data
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Collaborated with engineers to streamline training processes
-                    and document methodologies
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Oxvi Respire Solutions Experience */}
-        <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
-              <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
-            </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
-              Software Engineering Intern ·{" "}
-              <span className="text-teal-400 font-bold">Oxvi Solutions</span>
-            </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
-                May 2022 - July 2022
-              </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
-                <li className="flex gap-2">
-                  <span>
-                    Developed an{" "}
-                    <span className="text-teal-400 font-semibold">Android</span>{" "}
-                    app to plot real-time values from a prototype ventilator
-                    with live{" "}
-                    <span className="text-teal-400 font-semibold">
-                      Data Visualization
-                    </span>
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Integrated{" "}
-                    <span className="text-teal-400 font-semibold">
-                      Firebase
-                    </span>{" "}
-                    for real-time data storage and{" "}
-                    <span className="text-teal-400 font-semibold">
-                      authentication
-                    </span>
-                  </span>
-                </li>
-                <li className="flex gap-2">
-                  <span>
-                    Implemented communication protocols to embedded C components
-                    in the prototype for data exchange within a 5ms lag.
+                    Mentored{" "}
+                    <span className="text-teal-400 font-semibold">5+</span>{" "}
+                    junior developers and conducted technical training sessions
+                    on best practices and emerging technologies
                   </span>
                 </li>
               </ul>
@@ -376,17 +381,20 @@ const EnhancedMinimalResume = () => {
         </section>
       </div>
 
-      <div className="flex justify-center pt-6">
+      {/* Contact Section */}
+      <div className="text-center pt-16">
         <a
-          href="https://drive.google.com/file/d/115lTTONdim08vyKTGhGn3yQ99thrh_Kk/view?usp=sharing"
+          href="mailto:spalkhiw@asu.edu"
           className="group relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-white bg-gradient-to-r from-teal-500 to-teal-600 rounded-md shadow-lg hover:from-teal-600 hover:to-teal-700 transition-all duration-300 ease-out"
         >
-          <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-          <span className="relative font-medium">View my full resume</span>
+          <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-teal-600 to-teal-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          <span className="relative">Get In Touch</span>
         </a>
       </div>
     </div>
   );
 };
 
-export default EnhancedMinimalResume;
+export default function Resume() {
+  return <EnhancedMinimalResume />;
+}

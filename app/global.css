@@ -1,5 +1,22 @@
 @import 'tailwindcss';
 
+@config {
+  darkMode: 'class';
+}
+
+/* Base theme styles */
+html {
+  @apply text-black bg-white;
+}
+
+html.dark {
+  @apply text-white bg-black;
+}
+
+html.light {
+  @apply text-black bg-white;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
