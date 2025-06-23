@@ -13,7 +13,7 @@ const EnhancedMinimalResume = () => {
             </div>
             <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
               <Code size={20} className="text-teal-400" />
-              Incoming Data Analyst (AI/ML) ·{" "}
+              Data Analyst (AI/ML) ·{" "}
               <span className="text-teal-400 font-bold">Onsemi</span>
             </h1>
             <div className="text-gray-400 mt-2">
@@ -21,6 +21,18 @@ const EnhancedMinimalResume = () => {
                 June 2025 - Present
               </div>
               <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+
+                <li className="flex gap-2">
+                  <span>
+                    Implemented a new data processing pipeline for STDF files, leading to a 10x speedup in data processing.
+                  </span>
+                  <span>
+                  Developed and documented Test Naming Guidelines by identifying patterns in non-compliant test names 
+                  using data masking and pin pattern analysis; addressed gaps in previous guidelines to improve consistency 
+                  and compliance.
+                  </span>
+                </li>
+                
               <li className="flex gap-2">
                   <span>
                   Developed and documented Test Naming Guidelines by identifying patterns in non-compliant test names 
