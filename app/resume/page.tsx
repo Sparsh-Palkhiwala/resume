@@ -6,7 +6,7 @@ const EnhancedMinimalResume = () => {
     <div className="max-w-3xl mx-auto space-y-16 py-16 px-6 font-sans">
       {/* Experience Timeline */}
       <div className="space-y-20">
-      <section className="group relative transition-all duration-300">
+        <section className="group relative transition-all duration-300">
           <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
             <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
@@ -23,9 +23,19 @@ const EnhancedMinimalResume = () => {
               <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
               <li className="flex gap-2">
                   <span>
-                  Developed and documented Test Naming Guidelines by identifying patterns in non-compliant test names 
-                  using data masking and pin pattern analysis; addressed gaps in previous guidelines to improve consistency 
-                  and compliance.
+                    Refactored a <span className="text-teal-400 font-semibold">Rust</span>-based data processing pipeline, improving performance and maintainability.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Analyzed non-compliant test name patterns using data masking and pin pattern matching,
+                    developed new guidelines to improve consistency and compliance across test data pipelines.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span>
+                    Built a full-stack web application with a <span className="text-teal-400 font-semibold">React</span> frontend, <span className="text-teal-400 font-semibold">FastAPI</span> middleware, and Python
+                    backend to parse and visualize 1.5 GB STDF files in under 10 minutes, enabling efficient large-scale semiconductor test data analysis.
                   </span>
                 </li>
               </ul>
