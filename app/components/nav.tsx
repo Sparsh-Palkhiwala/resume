@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ThemeSwitcher } from "./theme-switcher";
 
 const navItems = {
   "/": {
@@ -32,6 +33,7 @@ export function Navbar() {
                 </Link>
               );
             })}
+            <ThemeSwitcher />
           </div>
         </nav>
       </div>
