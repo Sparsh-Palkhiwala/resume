@@ -7,23 +7,23 @@ const EnhancedMinimalResume = () => {
       {/* Experience Timeline */}
       <div className="space-y-20">
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Incoming Data Analyst (AI/ML) ·{" "}
-              <span className="text-teal-400 font-bold">Onsemi</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">Onsemi</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 June 2025 - Present
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
               <li className="flex gap-2">
                   <span>
-                    Refactored a <span className="text-teal-400 font-semibold">Rust</span>-based data processing pipeline, improving performance and maintainability.
+                    Refactored a <span className="text-teal-500 dark:text-teal-400 font-semibold">Rust</span>-based data processing pipeline, improving performance and maintainability.
                   </span>
                 </li>
                 <li className="flex gap-2">
@@ -34,7 +34,7 @@ const EnhancedMinimalResume = () => {
                 </li>
                 <li className="flex gap-2">
                   <span>
-                    Built a full-stack web application with a <span className="text-teal-400 font-semibold">React</span> frontend, <span className="text-teal-400 font-semibold">FastAPI</span> middleware, and Python
+                    Built a full-stack web application with a <span className="text-teal-500 dark:text-teal-400 font-semibold">React</span> frontend, <span className="text-teal-500 dark:text-teal-400 font-semibold">FastAPI</span> middleware, and Python
                     backend to parse and visualize 1.5 GB STDF files in under 10 minutes, enabling efficient large-scale semiconductor test data analysis.
                   </span>
                 </li>
@@ -46,20 +46,20 @@ const EnhancedMinimalResume = () => {
 
         {/* SIBI Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Software Engineering Intern (AI/ML) ·{" "}
-              <span className="text-teal-400 font-bold">SIBI LLC</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">SIBI LLC</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 September 2024 - June 2025
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Created a dataset of 100+ Text-to-SQL queries to enhance
@@ -82,7 +82,7 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Reduced token usage by{" "}
-                    <span className="text-teal-400 font-semibold">70%</span> by
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">70%</span> by
                     implementing PromptAgent optimization to address high token
                     costs
                   </span>
@@ -103,13 +103,13 @@ const EnhancedMinimalResume = () => {
                   <span>
                     Implemented a dynamic-prompting system for efficient data
                     answering using LLM, improving evaluations by{" "}
-                    <span className="text-teal-400 font-semibold">20%</span>
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">20%</span>
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
                     Optimized data retrieval by enhancing{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       Apollo GraphQL
                     </span>{" "}
                     schema to fetch comprehensive runtime data, reducing
@@ -120,11 +120,11 @@ const EnhancedMinimalResume = () => {
                   <span>
                     Assisted in migrating internal AI assistant's data layer
                     from{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       AWS Redshift
                     </span>{" "}
                     to{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       Motherduck DuckDB
                     </span>
                   </span>
@@ -136,20 +136,20 @@ const EnhancedMinimalResume = () => {
 
         {/* Mirwork Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Software Engineering Intern (AI/ML) ·{" "}
-              <span className="text-teal-400 font-bold">Mirwork Inc</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">Mirwork Inc</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 June 2024 - August 2024
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Engineered and optimized data extraction pipelines using
@@ -160,7 +160,7 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Designed, implemented, and maintained{" "}
-                    <span className="text-teal-400 font-semibold">MongoDB</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">MongoDB</span>{" "}
                     database to efficiently store and manage extensive audio
                     data sets
                   </span>
@@ -168,7 +168,7 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Utilized YouTube data to fine-tune{" "}
-                    <span className="text-teal-400 font-semibold">LLM</span> to
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">LLM</span> to
                     improve the accuracy and effectiveness of interview
                     assessment tools
                   </span>
@@ -186,24 +186,24 @@ const EnhancedMinimalResume = () => {
 
         {/* Psych for Life Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Software Developer ·{" "}
-              <span className="text-teal-400 font-bold">Psych for Life</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">Psych for Life</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 August 2023 - Present
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Migrated web app from NPM to{" "}
-                    <span className="text-teal-400 font-semibold">PNPM</span>,
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">PNPM</span>,
                     cutting build times and boosting reliability with efficient
                     dependency linking
                   </span>
@@ -211,9 +211,9 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Achieved{" "}
-                    <span className="text-teal-400 font-semibold">80%</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">80%</span>{" "}
                     reduction in research time by utilizing{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       Prompt Engineering
                     </span>
                   </span>
@@ -227,7 +227,7 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Leading integration of{" "}
-                    <span className="text-teal-400 font-semibold">AI</span> into
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">AI</span> into
                     the writing process for enhanced efficiency
                   </span>
                 </li>
@@ -235,7 +235,7 @@ const EnhancedMinimalResume = () => {
                   <span>
                     Orchestrated custom prompt engineering solutions, resulting
                     in a{" "}
-                    <span className="text-teal-400 font-semibold">50%</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">50%</span>{" "}
                     reduction in process cycle time
                   </span>
                 </li>
@@ -260,7 +260,7 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Employed caching techniques, resulting in a{" "}
-                    <span className="text-teal-400 font-semibold">70%</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">70%</span>{" "}
                     decrease in rendering delay
                   </span>
                 </li>
@@ -271,39 +271,39 @@ const EnhancedMinimalResume = () => {
 
         {/* eInfochips Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Software Engineering Intern (CV) ·{" "}
-              <span className="text-teal-400 font-bold">eInfochips</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">eInfochips</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 Jan 2023 - June 2023
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Led a team of 3 to develop a real-time vehicle detection
                     system for visually impaired individuals, achieving{" "}
-                    <span className="text-teal-400 font-semibold">65.4%</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">65.4%</span>{" "}
                     average precision
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
                     Achieved an{" "}
-                    <span className="text-teal-400 font-semibold">86.5%</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">86.5%</span>{" "}
                     reduction in resource usage by filter pruning algorithm
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
                     Computed{" "}
-                    <span className="text-teal-400 font-semibold">CNN</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">CNN</span>{" "}
                     models on 16,000 image datasets for vehicle detection
                   </span>
                 </li>
@@ -311,14 +311,14 @@ const EnhancedMinimalResume = () => {
                   <span>
                     Enhanced real-time safety detection in YOLO by implementing
                     Safety Detection Algorithm, achieving a{" "}
-                    <span className="text-teal-400 font-semibold">25 fps</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">25 fps</span>{" "}
                     detection rate
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span>
                     Applied precision-focused strategies and{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       fine-tuned
                     </span>{" "}
                     the model using Indian traffic data
@@ -337,27 +337,27 @@ const EnhancedMinimalResume = () => {
 
         {/* Oxvi Respire Solutions Experience */}
         <section className="group relative transition-all duration-300">
-          <div className="ml-4 border-l-2 border-gray-700 pl-8 group-hover:border-teal-400 transition-all duration-300">
-            <div className="absolute flex items-center justify-center w-8 h-8 bg-black border-2 border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-400 transition-all duration-300">
+          <div className="ml-4 border-l-2 border-gray-200 dark:border-gray-700 pl-8 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
+            <div className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 dark:bg-black border-2 border-gray-200 dark:border-gray-700 rounded-full left-0 top-0 group-hover:border-teal-500 dark:group-hover:border-teal-400 transition-all duration-300">
               <div className="w-4 h-4 bg-teal-500 rounded-full shadow-md shadow-teal-500/20 transition-all duration-300 group-hover:scale-110"></div>
             </div>
-            <h1 className="text-white text-xl font-semibold tracking-tight flex items-center gap-2">
-              <Code size={20} className="text-teal-400" />
+            <h1 className="text-gray-900 dark:text-white text-xl font-semibold tracking-tight flex items-center gap-2">
+              <Code size={20} className="text-teal-500 dark:text-teal-400" />
               Software Engineering Intern ·{" "}
-              <span className="text-teal-400 font-bold">Oxvi Solutions</span>
+              <span className="text-teal-500 dark:text-teal-400 font-bold">Oxvi Solutions</span>
             </h1>
-            <div className="text-gray-400 mt-2">
-              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-800 pb-2 inline-block pr-4">
+            <div className="text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-sm mb-5 font-light tracking-wide border-b border-gray-200 dark:border-gray-800 pb-2 inline-block pr-4">
                 May 2022 - July 2022
               </div>
-              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-300">
+              <ul className="text-sm space-y-3 leading-relaxed list-none text-gray-700 dark:text-gray-300">
                 <li className="flex gap-2">
                   <span>
                     Developed an{" "}
-                    <span className="text-teal-400 font-semibold">Android</span>{" "}
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">Android</span>{" "}
                     app to plot real-time values from a prototype ventilator
                     with live{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       Data Visualization
                     </span>
                   </span>
@@ -365,11 +365,11 @@ const EnhancedMinimalResume = () => {
                 <li className="flex gap-2">
                   <span>
                     Integrated{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       Firebase
                     </span>{" "}
                     for real-time data storage and{" "}
-                    <span className="text-teal-400 font-semibold">
+                    <span className="text-teal-500 dark:text-teal-400 font-semibold">
                       authentication
                     </span>
                   </span>
